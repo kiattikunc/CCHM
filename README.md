@@ -1,4 +1,4 @@
-# CHCM
+# CCHM
  Conservative rule and Causal effect Hill-climbing for MAG 
 
 The algorithm is presented in the article "Bayesian network structure learning with causal effects in the
