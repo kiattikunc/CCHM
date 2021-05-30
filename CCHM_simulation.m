@@ -8,7 +8,7 @@ pdSep           = 4;
 heuristic       = 3;
 nnSamples       = [10000];
 nnLatent        = [0.1];
-maxinDegree     = [3];
+maxParents     = [3];
 nnVarsL         = [10];
 startingIter    = 1;
 nIters          = 10;
@@ -33,8 +33,8 @@ for inSamples = 1:length(nnSamples)
         % Control random number generator
         rng(0,'combRecursive');
         
-        for inmaxinDegree= 1:length(maxParents)
-            nmaxinDegree= maxParents(inMaxParents);
+        for inMaxParents= 1:length(maxParents)
+            nMaxParents= maxParents(inMaxParents);
             fprintf('--------------------------------nMaxinDegree: %d-----------------------------------\n', nMaxParents);
        
             for inVarsL = 1:length(nnVarsL)
